@@ -45,7 +45,14 @@ public class RemateService {
             System.out.println("quedaste corto wuacho...");
           }
         }
+      } else {
+        System.out.println("Quedaste muy recorto... ");
       }
+
+    }
+
+    public void addRemate(Remate remate){
+      remates.add(remate);
     }
 
 }

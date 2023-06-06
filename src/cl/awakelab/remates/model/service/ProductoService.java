@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ProductoService {
-  List<Producto> lista = new ArrayList<Producto>();
+  private List<Producto> lista = new ArrayList<Producto>();
 
   public ProductoService(){
     lista.add(new Vehiculo("Bronco", 250d, "Ford", "Bronco GTD Full Power Shift", 2023));
